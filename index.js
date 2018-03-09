@@ -6,7 +6,7 @@ function takeANumber(line, name) {
 
 //Says who is being served, takes them out of line.
 function nowServing(line) {
-  let message = '`';
+  let message = '';
   if (line.length === 0) {
     return 'There is nobody waiting to be served!';
   } else {
