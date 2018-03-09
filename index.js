@@ -1,7 +1,7 @@
 //Adds person to line, returns message to person welcoming, and telling number in line
 function takeANumber(line, name) {
   line.push(name);
-  return `Welcome, ${name}. You are number ${line.indexOf(name) + 1} in line.`;
+    return `Welcome, ${name}. You are number ${line.indexOf(name) + 1} in line.`;
 }
 
 //Says who is being served, takes them out of line.
